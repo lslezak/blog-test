@@ -1,0 +1,41 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            <span class="fa fa-rss fa-fw"></span>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
+          </li>
+          <li>
+            <span class="fa fa-github fa-fw"></span>
+            <a href="https://github.com/{{ site.github_username }}">GitHub Profile</a>
+          </li>
+          <li>
+            <span class="fa fa-envelope-o fa-fw"></span>
+            <a href="mailto:{{ site.email }}">E-mail</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+    
+    <div class="footer-copy">
+      Copyright © 2016 The YaST Team<br/>
+      Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
+      <a href="https://pages.github.com/">GitHub pages</a>
+    </div>
+
+  </div>
+
+</footer>

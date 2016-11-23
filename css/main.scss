@@ -1,0 +1,70 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// import Google fonts
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Cousine|Open+Sans+Condensed:700);
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
+
+$base-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+$mono-font-family: "Cousine", monospace;
+
+$base-font-size:   16px;
+// normal
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$title-color:      white;
+
+$base-color:       #8CD4FF;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #35b9ab;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 5%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// https://developers.google.com/+/branding-guidelines#google-icon-branding-guidelines
+$google-button:    #dd4b39;
+// https://about.twitter.com/company/brand-assets
+$twitter-button-color: #55acee;
+$facebook-button-color: #3b5999;
+// https://business.pinterest.com/en/brand-guidelines
+$pinterest-button-color: #bd081c;
+
+$footer-height:     180px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "image",
+        "layout",
+        "syntax-highlighting"
+;

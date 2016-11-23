@@ -1,0 +1,32 @@
+# If you change this file, please restart the local server process.
+
+# site settings
+title: The YaST Team Blog
+email: yast-devel@opensuse.org
+description: >
+  This is the YaST team blog.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://yast.github.io" # the base hostname & protocol for your site
+github_username:  yast
+
+# see http://kramdown.gettalong.org/syntax.html for the format specification
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # no hard line endings, allow reformatting paragraphs
+  hard_wrap: false
+
+permalink: /:year/:month/:day/:title/
+
+# generate sitemap.xml and feed.xml automatically by plugins, enable GFM emoji
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+# exclude some files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
