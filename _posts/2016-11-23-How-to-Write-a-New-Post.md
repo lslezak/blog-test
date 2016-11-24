@@ -27,7 +27,7 @@ There are basically two ways how to write a new blog post.
 
 - Open the [https://yast.github.io/blog/new_post](https://yast.github.io/blog/new_post) page
 - Fill the title for the new post
-- Press the `Create Post` button
+- Press the `Propose Post` button
 - You will be redirected at GitHub where a new post file will be proposed
 - Use the `Preview` tab to see the rendered Markdown  
   ![preview screenshot]({{site.baseurl}}/images/new-post/preview.png)

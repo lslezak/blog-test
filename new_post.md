@@ -7,11 +7,14 @@ permalink: /new_post/
 
 Here you can generate a post template at GitHub for a new blog post.
 
+<form>
 Post Title<br>
 <input type="text" id="post_title">
-
+<br>
+<br>
 <!-- Add lists with categories and tags here ?? -->
-<button type="submit" id="create_button">Create Post</button>
+<button type="submit" id="create_button">Propose Post</button>
+</form>
 
 <script type="text/javascript">
   function create_new_post()
