@@ -29,9 +29,7 @@ proposal as read-only. These read-only modules then cannot be started from the
 installer and therefore their configuration is kept at the default initial
 state.
 
-[![Software and firewall proposals as read-only](//lizards.opensuse.org/wp-
-content/uploads/2016/11/readonly-300x225.png)](//lizards.opensuse.org/wp-
-content/uploads/2016/11/readonly.png)
+[![Software and firewall proposals as read-only](//lizards.opensuse.org/wp-content/uploads/2016/11/readonly-300x225.png)](//lizards.opensuse.org/wp-content/uploads/2016/11/readonly.png)
 
 In this sprint we have implemented a basic support in the proposal framework,
 in the future we could improve the respective proposal modules to better
@@ -54,26 +52,24 @@ SLES/blob/master/control/control.SLES.xml#L190) and
 openSUSE/blob/master/control/control.openSUSE.xml#L297) examples to learn
 more).
 
-    
-    
-    
-    <subvolumes config:type="list">
-      <subvolume>
-        <path>boot/grub2/i386-pc</path>
-        <archs>i386,x86_64</archs>
-      </subvolume>
-      <subvolume>
-        <path>home</path>
-      </subvolume>
-      <subvolume>
-        <path>opt</path>
-      </subvolume>
-      <subvolume>
-        <path>var/lib/libvirt/images</path>
-        <copy_on_write config:type="boolean">false</copy_on_write>
-      </subvolume>
-    </subvolumes>
-    
+```xml
+<subvolumes config:type="list">
+  <subvolume>
+    <path>boot/grub2/i386-pc</path>
+    <archs>i386,x86_64</archs>
+  </subvolume>
+  <subvolume>
+    <path>home</path>
+  </subvolume>
+  <subvolume>
+    <path>opt</path>
+  </subvolume>
+  <subvolume>
+    <path>var/lib/libvirt/images</path>
+    <copy_on_write config:type="boolean">false</copy_on_write>
+  </subvolume>
+</subvolumes>
+```
 
 This specification supports:
 
@@ -90,29 +86,25 @@ Of course, if you don't need such a feature, you won't need to adapt your
 profiles to the new syntax as it's backward compatible. You can also mix both
 of them:
 
-    
-    
-    
-    <subvolumes config:type="list">
-      <subvolume>home</subvolume>
-      <subvolume>
-        <path>var/lib/libvirt/images</path>
-        <copy_on_write config:type="boolean">false</copy_on_write>
-      </subvolume>
-    </subvolumes>
-    
+```xml  
+<subvolumes config:type="list">
+  <subvolume>home</subvolume>
+  <subvolume>
+    <path>var/lib/libvirt/images</path>
+    <copy_on_write config:type="boolean">false</copy_on_write>
+  </subvolume>
+</subvolumes>
+```
 
 On the other hand, if you're running SLES, you'll know that a subvolume called
 `@` is used as the default Btrfs subvolume. Now is possible to turn-off such
 behavior in the profile's general section.
 
-    
-    
-    
-    <general>
-      <btrfs_set_subvolume_default_name config:type="boolean">false</btrfs_set_subvolume_default_name>
-    </general>
-    
+```xml    
+<general>
+  <btrfs_set_subvolume_default_name config:type="boolean">false</btrfs_set_subvolume_default_name>
+</general>
+```
 
 ### Disable installer self-update by default
 
@@ -133,9 +125,7 @@ adapting the bootloader proposal to the new storage layer. As you can see in
 the following screenshot, we succeeded and the installer can already propose a
 valid grub2 setup to boot an EFI system.
 
-[![EFI proposal with the storage-ng ISO](//lizards.opensuse.org/wp-
-content/uploads/2016/11/grub2efi-300x225.png)](//lizards.opensuse.org/wp-
-content/uploads/2016/11/grub2efi.png)
+[![EFI proposal with the storage-ng ISO](//lizards.opensuse.org/wp-content/uploads/2016/11/grub2efi-300x225.png)](//lizards.opensuse.org/wp-content/uploads/2016/11/grub2efi.png)
 
 Does that mean that the testing ISO for the new storage stack is already fully
 installable? Unfortunately not. Why not, you ask? The reason is, in fact, kind
@@ -150,8 +140,7 @@ work](https://bugzilla.suse.com/show_bug.cgi?id=1008289) in Tumbleweed, so it
 neither does in our Tumbleweed-based testing ISO.
 
 We will work during the following sprint to support another scenario. And
-hopefully we will not choose again an unsupported or broken one.
-![😉](https://s.w.org/images/core/emoji/2/72x72/1f609.png)
+hopefully we will not choose again an unsupported or broken one. :wink:
 
 ### Letting libYUI run free: first visible steps
 
@@ -191,9 +180,7 @@ cannot be reproduced in openSUSE 13.2 or Leap. We must be realistic about
 releases that are already out of support and the limited human resources we
 have. We closed around 80 of those ancient bugs.
 
-[![no_country_for_old_bugs](//lizards.opensuse.org/wp-content/uploads/2016/11
-/no_country_for_old_bugs-300x169.jpg)](//lizards.opensuse.org/wp-
-content/uploads/2016/11/no_country_for_old_bugs.jpg)
+[![no_country_for_old_bugs](//lizards.opensuse.org/wp-content/uploads/2016/11/no_country_for_old_bugs-300x169.jpg)](//lizards.opensuse.org/wp-content/uploads/2016/11/no_country_for_old_bugs.jpg)
 
 So overall, we cleaned up around one hundred bugs from our queue. Still a long
 way to have a bug-free YaST, but undoubtedly a step in the right direction.
