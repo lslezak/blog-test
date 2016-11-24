@@ -16,11 +16,11 @@ There are basically two ways how to write a new blog post.
 # Creating a Post Locally
 
 - Clone the Git repository
-- Create a Markdown new file in `_posts` directory - follow the same file naming schema,
-  use a simila header like in the other posts
+- Create a new Markdown file in `_posts` directory - follow the same file naming schema,
+  use a similar header like in the other posts
 - Add images to `images` directory, use a new subdirectory if you need to add
   several images related only to a single post
-- Hint: If you the [Atom](https://atom.io/) editor you can use the live preview feature:
+- Hint: If you use the [Atom](https://atom.io/) editor you can use the live preview feature:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5fZ9SlUoOqQ" frameborder="0" allowfullscreen></iframe>
 
 # Creating a Post at GitHub
