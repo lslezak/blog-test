@@ -41,11 +41,17 @@ Ruby 3 will use guild membership concurrency model. The most interesting part
 of the talk is digging into rationale of typed versus non-typed languages and
 what can be the Ruby future in that regard.
 
+<iframe width="500" height="281" src="https://www.youtube.com/embed/8aHmArEq4y0?feature=oembed" frameborder="0" allowfullscreen></iframe>
+<br>
+
 **Rules, Laws and Gently Guidelines by Andrew Radev**
 
 Interesting view about common design principles, common mistakes when applying
 them and looking to them from different angles. Also explaining how to handle
 situations in which several design principles seem to contradict each other.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/BDXQ4pcbEBA?feature=oembed" frameborder="0" allowfullscreen></iframe>
+<br>
 
 **Elixir by Jose Valim**
 
@@ -72,6 +78,9 @@ micro-services at all?
 Last but not least, take into account that Elixir is a functional language, so
 if you have an object-oriented mindset (like most Ruby developers) it will
 take some time to wrap your head around it.
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/xhwnHovnq_0?feature=oembed" frameborder="0" allowfullscreen></iframe>
+<br>
 
 ### Other presentations
 
