@@ -6,12 +6,7 @@ description: This is the fifth report since we started blogging about our develo
   sprints and we have to admit that is the less impressive one so far. We probably
   underestimated the impact of the combination of Easters holidays and vacations of
   some team members.
-category:
-- Distribution
-- Factory
-- Programming
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Distribution
 - Factory

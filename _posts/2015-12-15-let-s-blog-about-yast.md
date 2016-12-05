@@ -4,12 +4,7 @@ date: 2015-12-15 12:56:51.000000000 +00:00
 title: Let’s blog about YaST
 description: Since some months ago, the YaST Team at SUSE has been using Scrum to
   organize the work.
-category:
-- Distribution
-- YaST
-- Factory
-- openSUSE
-- Tumbleweed
+category: Improvement
 tags:
 - Distribution
 - YaST

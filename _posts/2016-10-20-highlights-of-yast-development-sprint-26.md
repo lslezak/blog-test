@@ -5,14 +5,7 @@ title: Highlights of YaST development sprint 26
 description: We did our best to keep you entertained during this development sprint
   with a couple of blog posts. But now the sprint is over and it&#8217;s
   time for a new report.
-category:
-- Distribution
-- Factory
-- Localization
-- Programming
-- Systems Management
-- Usability
-- YaST
+category: SCRUM
 tags:
 - Distribution
 - Factory

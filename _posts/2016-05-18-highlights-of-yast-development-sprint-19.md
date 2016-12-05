@@ -4,13 +4,7 @@ date: 2016-05-18 12:14:46.000000000 +00:00
 title: Highlights of YaST development sprint 19
 description: Here we are after another Scrum sprint with our usual report about the
   activity in YaST development.
-category:
-- Distribution
-- Factory
-- Programming
-- Software Management
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Distribution
 - Factory

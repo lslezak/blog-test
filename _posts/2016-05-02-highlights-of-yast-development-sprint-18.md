@@ -5,13 +5,7 @@ title: Highlights of YaST development sprint 18
 description: The wait is over, the report of the latest Scrum sprint of the YaST Team
   is here! In the previous post we promised that after this sprint we would have much
   more to show&#8230; and now we do.
-category:
-- Distribution
-- Factory
-- Programming
-- Software Management
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Distribution
 - Factory

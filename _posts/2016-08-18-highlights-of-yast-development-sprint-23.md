@@ -2,13 +2,7 @@
 layout: post
 date: 2016-08-18
 title: Highlights of YaST development sprint 23
-category:
-- Distribution
-- Documentation
-- Factory
-- Programming
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Distribution
 - Documentation

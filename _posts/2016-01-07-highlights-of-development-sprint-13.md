@@ -5,12 +5,7 @@ title: Highlights of development sprint 13
 description: As promised in the previous post on this blog, we&#8217;ll try to keep
   you updated about what is happening in the YaST world. Before Christmas we finished
   an specially short sprint, interrupted by another successful Hackweek.
-category:
-- Distribution
-- Factory
-- Programming
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Distribution
 - Factory

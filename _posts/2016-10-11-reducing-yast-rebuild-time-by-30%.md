@@ -5,13 +5,7 @@ title: Reducing YaST rebuild time by 30%
 description: 'Here comes the YaST team again trying to flood your aggregator with
   blog post! Now it&#8217;s time for the story of how we reduced the critical path
   of the rebuild time of YaST RPM packages.'
-category:
-- Build Service
-- Distribution
-- Factory
-- Programming
-- Systems Management
-- YaST
+category: Improvement
 tags:
 - Build Service
 - Distribution

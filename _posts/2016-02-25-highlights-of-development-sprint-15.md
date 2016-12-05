@@ -4,12 +4,7 @@ date: 2016-02-25 11:49:55.000000000 +00:00
 title: Highlights of development sprint 15
 description: We know you have missed the usual summary from the YaST trenches. But
   don&#8217;t panic, here you got it! As usual, we will only cover some highlights.
-category:
-- Distribution
-- Factory
-- Programming
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Distribution
 - Factory

@@ -6,12 +6,7 @@ description: After three weeks of work, another development sprint is over. So t
   for another report for our fellow geckos. As usual, quite some time was invested
   in boring bug fixes and small non-obvious improvements, but we also have some interesting
   stuff to talk about.
-category:
-- Distribution
-- Factory
-- Programming
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Distribution
 - Factory

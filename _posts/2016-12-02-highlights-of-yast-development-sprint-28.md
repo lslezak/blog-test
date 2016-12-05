@@ -5,15 +5,7 @@ title: Highlights of YaST development sprint 28
 description: November is over, Santa Claus elves start to stress and the YaST team
   brings you one of the last reports of 2016. Let&#8217;s see what&#8217;s new in
   YaSTland.
-category:
-- Base System
-- Distribution
-- Factory
-- Network
-- Programming
-- Systems Management
-- Usability
-- YaST
+category: SCRUM
 tags:
 - Base System
 - Distribution

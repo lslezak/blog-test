@@ -6,12 +6,7 @@ description: In our latest report, we promised you would not have to wait anothe
   three weeks to hear (or read) from us. And here we are again, but not with any of
   the anticipated topics, but with a call for help in a topic that could really
   make a difference.
-category:
-- Accessibility
-- Distribution
-- Systems Management
-- Usability
-- YaST
+category: Improvement
 tags:
 - Accessibility
 - Distribution

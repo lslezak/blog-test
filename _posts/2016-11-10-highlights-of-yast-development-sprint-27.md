@@ -4,13 +4,7 @@ date: 2016-11-10 11:17:57.000000000 +00:00
 title: Highlights of YaST development sprint 27
 description: Another three weeks of development come to an end&#8230; and our usual
   report starts. Take a look to what we have been cooking.
-category:
-- Base System
-- Distribution
-- Factory
-- Programming
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Base System
 - Distribution

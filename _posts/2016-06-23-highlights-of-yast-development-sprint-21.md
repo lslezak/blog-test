@@ -2,10 +2,7 @@
 layout: post
 date: 2016-06-23
 title: Highlights of YaST development sprint 21
-category:
-- Factory
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Factory
 - Systems Management

@@ -5,12 +5,7 @@ title: Highlights of development sprint 14
 description: Another three weeks period and another report from the YaST Team.
   This was actually a very productive sprint although, as usual, not all changes
   have such an obvious impact on final users...
-category:
-- Distribution
-- Factory
-- Programming
-- Systems Management
-- YaST
+category: SCRUM
 tags:
 - Distribution
 - Factory

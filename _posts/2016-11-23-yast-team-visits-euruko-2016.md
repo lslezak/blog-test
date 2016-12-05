@@ -4,13 +4,10 @@ date: 2016-11-23 16:47:54.000000000 +00:00
 title: YaST Team visits Euruko 2016
 description: As promised in previous posts, we want to share with you our experience
   and views from this year annual Ruby conference Euruko.
-category:
-- Events
-- Programming
-- YaST
+category: Events
 tags:
-- Events
 - Programming
+- Ruby
 - YaST
 ---
 
