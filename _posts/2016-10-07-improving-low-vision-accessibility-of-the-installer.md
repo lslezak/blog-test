@@ -4,8 +4,8 @@ date: 2016-10-07 08:25:36.000000000 +00:00
 title: Improving low-vision accessibility of the installer
 description: In our latest report, we promised you would not have to wait another
   three weeks to hear (or read) from us. And here we are again, but not with any of
-  the anticipated topics (build time reduction and Euruko 2016), but with a call for
-  help in a topic that could really make a difference [&#8230;]
+  the anticipated topics, but with a call for help in a topic that could really
+  make a difference.
 category:
 - Accessibility
 - Distribution

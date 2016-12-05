@@ -4,8 +4,7 @@ date: 2016-05-02 13:03:39.000000000 +00:00
 title: Highlights of YaST development sprint 18
 description: The wait is over, the report of the latest Scrum sprint of the YaST Team
   is here! In the previous post we promised that after this sprint we would have much
-  more to show&#8230; and now we do. This sprint was quite productive, so let&#8217;s
-  go straight to the most interesting bits. More improvements in [&#8230;]
+  more to show&#8230; and now we do.
 category:
 - Distribution
 - Factory

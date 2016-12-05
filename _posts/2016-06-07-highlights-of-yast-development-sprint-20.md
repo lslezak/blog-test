@@ -5,7 +5,7 @@ title: Highlights of YaST development sprint 20
 description: The latest Scrum sprint of the YaST team was shorter than the average
   three weeks and also a little bit &#8220;under-powered&#8221; with more people on
   vacation or sick leave than usual. The bright side of shorter sprints is that you
-  don&#8217;t have to wait three full weeks to get an update on the status. Here [&#8230;]
+  don&#8217;t have to wait three full weeks to get an update on the status.
 category:
 - Distribution
 - Factory

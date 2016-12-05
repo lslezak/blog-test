@@ -2,11 +2,9 @@
 layout: post
 date: 2016-02-03 08:08:15.000000000 +00:00
 title: Highlights of development sprint 14
-description: Another three weeks period and another report from the YaST Team (if
-  you don&#8217;t know what we are talking about, see highlights of sprint 13 and
-  the presentation post). This was actually a very productive sprint although, as
-  usual, not all changes have such an obvious impact on final users, at least in the
-  short [&#8230;]
+description: Another three weeks period and another report from the YaST Team.
+  This was actually a very productive sprint although, as usual, not all changes
+  have such an obvious impact on final users...
 category:
 - Distribution
 - Factory

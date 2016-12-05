@@ -5,8 +5,7 @@ title: Highlights of development sprint 16
 description: After three weeks of work, another development sprint is over. So time
   for another report for our fellow geckos. As usual, quite some time was invested
   in boring bug fixes and small non-obvious improvements, but we also have some interesting
-  stuff to talk about. Improved UI for the encrypted partitioning proposal We wanted
-  to talk [&#8230;]
+  stuff to talk about.
 category:
 - Distribution
 - Factory

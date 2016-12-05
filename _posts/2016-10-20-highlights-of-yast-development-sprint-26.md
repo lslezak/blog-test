@@ -3,9 +3,8 @@ layout: post
 date: 2016-10-20 12:36:54.000000000 +00:00
 title: Highlights of YaST development sprint 26
 description: We did our best to keep you entertained during this development sprint
-  with a couple of blog posts ([1] and [2]). But now the sprint is over and it&#8217;s
-  time for a new report. Squashing low priority bugs One of the main reasons to adopt
-  Scrum was to ensure we make a good use of [&#8230;]
+  with a couple of blog posts. But now the sprint is over and it&#8217;s
+  time for a new report.
 category:
 - Distribution
 - Factory

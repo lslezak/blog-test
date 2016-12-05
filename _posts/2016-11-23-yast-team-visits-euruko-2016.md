@@ -3,10 +3,7 @@ layout: post
 date: 2016-11-23 16:47:54.000000000 +00:00
 title: YaST Team visits Euruko 2016
 description: As promised in previous posts, we want to share with you our experience
-  and views from this year annual Ruby conference Euruko. Maybe &#8220;our&#8221;
-  is too much to say, since we only sent one developer there. So to be precise, these
-  are Josef Reidinger&#8217;s experience and views on the conference. This year Euruko
-  took place [&#8230;]
+  and views from this year annual Ruby conference Euruko.
 category:
 - Events
 - Programming

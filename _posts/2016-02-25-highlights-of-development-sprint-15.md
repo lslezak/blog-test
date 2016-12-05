@@ -3,10 +3,7 @@ layout: post
 date: 2016-02-25 11:49:55.000000000 +00:00
 title: Highlights of development sprint 15
 description: We know you have missed the usual summary from the YaST trenches. But
-  don&#8217;t panic, here you got it! As usual, we will only cover some highlights,
-  saving you from the gory details of the not so exciting regular bugfixing. Package
-  notifications libzypp has a nice feature that enables packages to display notifications
-  when they’re [&#8230;]
+  don&#8217;t panic, here you got it! As usual, we will only cover some highlights.
 category:
 - Distribution
 - Factory

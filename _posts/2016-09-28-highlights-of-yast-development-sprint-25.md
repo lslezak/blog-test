@@ -5,8 +5,7 @@ title: Highlights of YaST development sprint 25
 description: 'Another development sprint is over. Time flies! In our previous post
   we already reported about the branching of Tumbleweed and the upcoming releases
   and about the expected consequences: the landing of some cool features in a less
-  conservative Tumbleweed. We are still dedicating quite some effort to polish the
-  upcoming stable releases (SLE12-SP2 and Leap [&#8230;]'
+  conservative Tumbleweed.'
 category:
 - Base System
 - Distribution

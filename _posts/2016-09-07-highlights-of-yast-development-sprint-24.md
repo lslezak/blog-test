@@ -5,7 +5,6 @@ title: Highlights of YaST development sprint 24
 description: We are back to this blog after another three weeks of (mainly) bug-fixing.
   In the previous post we promised some news about the self-update functionality and
   about the LVM support in the new storage stack. We have that&#8230; and much more!
-  So this will be a long post, but it also hides some gems. You [&#8230;]
 category:
 - Distribution
 - Factory

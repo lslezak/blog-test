@@ -4,9 +4,7 @@ date: 2016-12-02 14:13:07.000000000 +00:00
 title: Highlights of YaST development sprint 28
 description: November is over, Santa Claus elves start to stress and the YaST team
   brings you one of the last reports of 2016. Let&#8217;s see what&#8217;s new in
-  YaSTland. Harder to ignore installation warning The &#8220;installation settings&#8221;
-  summary screen usually reports some non-critical errors displayed as a red text.
-  Although the installation can proceed despite those [&#8230;]
+  YaSTland.
 category:
 - Base System
 - Distribution

@@ -5,8 +5,7 @@ title: Highlights of development sprint 17
 description: This is the fifth report since we started blogging about our development
   sprints and we have to admit that is the less impressive one so far. We probably
   underestimated the impact of the combination of Easters holidays and vacations of
-  some team members. But although we were less productive than expected, we still
-  have a [&#8230;]
+  some team members.
 category:
 - Distribution
 - Factory

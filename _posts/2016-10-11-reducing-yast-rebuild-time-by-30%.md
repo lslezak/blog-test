@@ -4,8 +4,7 @@ date: 2016-10-11 13:51:10.000000000 +00:00
 title: Reducing YaST rebuild time by 30%
 description: 'Here comes the YaST team again trying to flood your aggregator with
   blog post! Now it&#8217;s time for the story of how we reduced the critical path
-  of the rebuild time of YaST RPM packages from 42min 2s to 29min 40s. Chapter 1:
-  where to optimize Of course, the first step to start fixing something [&#8230;]'
+  of the rebuild time of YaST RPM packages.'
 category:
 - Build Service
 - Distribution

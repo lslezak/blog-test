@@ -4,9 +4,7 @@ date: 2016-01-07 12:43:35.000000000 +00:00
 title: Highlights of development sprint 13
 description: As promised in the previous post on this blog, we&#8217;ll try to keep
   you updated about what is happening in the YaST world. Before Christmas we finished
-  an specially short sprint, interrupted by another successful Hackweek. Although
-  we always reserve some time for bug fixing, the last two sprints has been quite
-  focused in looking [&#8230;]
+  an specially short sprint, interrupted by another successful Hackweek.
 category:
 - Distribution
 - Factory

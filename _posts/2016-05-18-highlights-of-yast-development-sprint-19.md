@@ -3,10 +3,7 @@ layout: post
 date: 2016-05-18 12:14:46.000000000 +00:00
 title: Highlights of YaST development sprint 19
 description: Here we are after another Scrum sprint with our usual report about the
-  activity in YaST development. Trusted boot YaST bootloader module got a new option,
-  Trusted Boot (FATE#316553). It installs TrustedGRUB2 instead of the regular GRUB2.
-  Trusted Boot means measuring the integrity of the boot process, with the help from
-  the hardware (a TPM, [&#8230;]
+  activity in YaST development.
 category:
 - Distribution
 - Factory
