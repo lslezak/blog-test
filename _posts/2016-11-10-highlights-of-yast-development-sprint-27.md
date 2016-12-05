@@ -63,23 +63,24 @@ Starting on yast2-storage 3.1.103.1, a list of subvolumes can be defined
 in the product’s control file along with additional options (check out
 [SLES][3] and [openSUSE][4] examples to learn more).
 
-    
-    <subvolumes config:type="list">
-      <subvolume>
-        <path>boot/grub2/i386-pc</path>
-        <archs>i386,x86_64</archs>
-      </subvolume>
-      <subvolume>
-        <path>home</path>
-      </subvolume>
-      <subvolume>
-        <path>opt</path>
-      </subvolume>
-      <subvolume>
-        <path>var/lib/libvirt/images</path>
-        <copy_on_write config:type="boolean">false</copy_on_write>
-      </subvolume>
-    </subvolumes>
+```xml
+<subvolumes config:type="list">
+  <subvolume>
+    <path>boot/grub2/i386-pc</path>
+    <archs>i386,x86_64</archs>
+  </subvolume>
+  <subvolume>
+    <path>home</path>
+  </subvolume>
+  <subvolume>
+    <path>opt</path>
+  </subvolume>
+  <subvolume>
+    <path>var/lib/libvirt/images</path>
+    <copy_on_write config:type="boolean">false</copy_on_write>
+  </subvolume>
+</subvolumes>
+```
 
 This specification supports:
 
@@ -97,23 +98,25 @@ Of course, if you don’t need such a feature, you won’t need to adapt
 your profiles to the new syntax as it’s backward compatible. You can
 also mix both of them:
 
-    
-    <subvolumes config:type="list">
-      <subvolume>home</subvolume>
-      <subvolume>
-        <path>var/lib/libvirt/images</path>
-        <copy_on_write config:type="boolean">false</copy_on_write>
-      </subvolume>
-    </subvolumes>
+```xml
+<subvolumes config:type="list">
+  <subvolume>home</subvolume>
+  <subvolume>
+    <path>var/lib/libvirt/images</path>
+    <copy_on_write config:type="boolean">false</copy_on_write>
+  </subvolume>
+</subvolumes>
+```
 
 On the other hand, if you’re running SLES, you’ll know that a subvolume
 called `@` is used as the default Btrfs subvolume. Now is possible to
 turn-off such behavior in the profile’s general section.
 
-    
-    <general>
-      <btrfs_set_subvolume_default_name config:type="boolean">false</btrfs_set_subvolume_default_name>
-    </general>
+```xml
+<general>
+  <btrfs_set_subvolume_default_name config:type="boolean">false</btrfs_set_subvolume_default_name>
+</general>
+```
 
 ### Disable installer self-update by default
 

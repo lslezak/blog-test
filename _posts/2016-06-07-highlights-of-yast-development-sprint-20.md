@@ -43,8 +43,7 @@ during the installation. All you have to do is boot the installer with
 `Y2DEBUGGER=1`.
 
 [![Debugger during
-installation](../../../../images/2016-06-07/debugger_session-300x225.png)](../../../../images/2016-06-07/debugger_session.png){:
-rel="attachment wp-att-11869"}
+installation](../../../../images/2016-06-07/debugger_session-300x225.png)](../../../../images/2016-06-07/debugger_session.png)
 
 Moreover the same mechanism is also available when running YaST in a
 installed system. Just make sure the rubygem-byebug package is installed
@@ -76,8 +75,7 @@ screenshots of the new interface in several situations, with the new
 main dialog looking like this.
 
 [![New dialog for SSH keys
-importing](../../../../images/2016-06-07/sshimport2-300x225.png)](../../../../images/2016-06-07/sshimport2.png){:
-rel="attachment wp-att-11871"}
+importing](../../../../images/2016-06-07/sshimport2-300x225.png)](../../../../images/2016-06-07/sshimport2.png)
 
 Iterative development rocks when you have involved users. Keep the
 constructive criticism!
@@ -89,13 +87,14 @@ that got improved. For every feature we add to the interactive
 installer, we always take care of making it accessible from AutoYaST as
 well. Thus, an AutoYaST profile file can now contain a section like this
 to control the behavior of the new functionality.  
- `
+
+```xml
 <ssh_import>
   <import config:type="boolean">true</import>
   <copy_config config:type="boolean">true</copy_config>
   <device>/dev/sda2</device>
 </ssh_import>
-`
+```
 
 ### Firewalld support in YaST2-Firewall
 
@@ -138,8 +137,7 @@ was not obvious at first sight, it offered three options:
 3.  Skip the registration step.
 
 [![Old registration
-UI](../../../../images/2016-06-07/reg-old-300x225.png)](../../../../images/2016-06-07/reg-old.png){:
-rel="attachment wp-att-11854"}
+UI](../../../../images/2016-06-07/reg-old-300x225.png)](../../../../images/2016-06-07/reg-old.png)
 
 Options 1 and 2 are mutually exclusive but, if you look at the
 interface, that fact is not clear. Moreover, we wanted this dialog to be
@@ -149,8 +147,7 @@ The new dialog looks like this, with the three mutually exclusive
 options being directly presented to the user.
 
 [![New Registration
-UI](../../../../images/2016-06-07/reg-new-300x225.png)](../../../../images/2016-06-07/reg-new.png){:
-rel="attachment wp-att-11856"}
+UI](../../../../images/2016-06-07/reg-new-300x225.png)](../../../../images/2016-06-07/reg-new.png)
 
 As always, redesigning a UI in YaST implies making sure it works nicely
 in the NCurses interface with screens with a resolution of 80 columns
@@ -158,8 +155,7 @@ and 25 lines of text. Doesn’t it look nice (provided the reader has a
 geeky aesthetic sense)?
 
 ![Text-based Registration
-UI](../../../../images/2016-06-07/reg-curses.png){:
-style="max-width:100%"}
+UI](../../../../images/2016-06-07/reg-curses.png)
 
 ### Progress in the new storage layer
 

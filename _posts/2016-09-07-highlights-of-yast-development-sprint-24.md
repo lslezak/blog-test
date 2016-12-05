@@ -82,10 +82,11 @@ repeating the same options on the boot command line and to share the
 boot options across the team we created an `info.txt` file with content
 like
 
-    
-    insecure=1
-    startshell=1
-    dud=ftp://example.com/self_update.dud
+```
+insecure=1
+startshell=1
+dud=ftp://example.com/self_update.dud
+```
 
 Then you simply boot the installation with
 `info=ftp://example.com/info.txt` and *linuxrc* will read the additional

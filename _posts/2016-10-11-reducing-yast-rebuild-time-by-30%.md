@@ -42,18 +42,19 @@ reinvention of the wheel. The Build Service must know all this to be
 able to schedule the builds, and provides a convenient way to access it,
 with `osc dependson`\:
 
-    
-    $ osc dependson YaST:Head openSUSE_Factory x86_64
-    [...]
-    yast2-x11 :
-       yast2-devtools
-    yast2-xml :
-       yast2-core
-       yast2-devtools
-    yast2-ycp-ui-bindings :
-       libyui
-       yast2-core
-       yast2-devtools
+```
+$ osc dependson YaST:Head openSUSE_Factory x86_64
+[...]
+yast2-x11 :
+   yast2-devtools
+yast2-xml :
+   yast2-core
+   yast2-devtools
+yast2-ycp-ui-bindings :
+   libyui
+   yast2-core
+   yast2-devtools
+```
 
 ### Individual build times
 
@@ -140,32 +141,33 @@ The build dependency graph after our fixes:
 If those graph are not geeky enough for you, here you are the detailed
 build statistics from the build service
 
-    
-    <buildstatistics>
-      <disk>
-        <usage>
-          <size unit="M">1118</size>
-          <io_requests>15578</io_requests>
-          <io_sectors>2156642</io_sectors>
-        </usage>
-      </disk>
-      <memory>
-        <usage>      <size unit="M">580</size> </usage>
-      </memory>
-      <times>
-        <total>      <time unit="s">756</time> </total>         <!-- THIS -->
-        <preinstall> <time unit="s">8</time>   </preinstall>
-        <install>    <time unit="s">72</time>  </install>
-        <main>       <time unit="s">555</time> </main>
-        <download>   <time unit="s">4</time>   </download>
-      </times>
-      <download>
-        <size unit="k">33564</size>
-        <binaries>53</binaries>
-        <cachehits>24</cachehits>
-        <preinstallimage>preinstallimage.preinstallimage.tar.gz</preinstallimage>
-      </download>
-    </buildstatistics>
+```xml
+<buildstatistics>
+  <disk>
+    <usage>
+      <size unit="M">1118</size>
+      <io_requests>15578</io_requests>
+      <io_sectors>2156642</io_sectors>
+    </usage>
+  </disk>
+  <memory>
+    <usage>      <size unit="M">580</size> </usage>
+  </memory>
+  <times>
+    <total>      <time unit="s">756</time> </total>         <!-- THIS -->
+    <preinstall> <time unit="s">8</time>   </preinstall>
+    <install>    <time unit="s">72</time>  </install>
+    <main>       <time unit="s">555</time> </main>
+    <download>   <time unit="s">4</time>   </download>
+  </times>
+  <download>
+    <size unit="k">33564</size>
+    <binaries>53</binaries>
+    <cachehits>24</cachehits>
+    <preinstallimage>preinstallimage.preinstallimage.tar.gz</preinstallimage>
+  </download>
+</buildstatistics>
+```
 
 ## Epilogue
 

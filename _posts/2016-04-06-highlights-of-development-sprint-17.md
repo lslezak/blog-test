@@ -49,8 +49,7 @@ silently continued with the package installation which could cause
 serious troubles later.
 
 ![File
-conflicts](https://cloud.githubusercontent.com/assets/907998/13957750/e11da630-f04d-11e5-94a5-ee8b7a67b0ce.gif){:
-style="max-width:100%"}
+conflicts](https://cloud.githubusercontent.com/assets/907998/13957750/e11da630-f04d-11e5-94a5-ee8b7a67b0ce.gif)
 
 File conflicts should normally not happen, at least when you use the
 original distribution repositories. The OBS build checks for some file
@@ -79,8 +78,7 @@ distributed using regular RPM repositories (instead of Driver Update
 Disks).
 
 ![Self-Update installer - Unknown
-GPG](../../../../images/2016-04-06/c7f519fc-fbda-11e5-9367-2e08dd186c1d.png){:
-style="max-width:100%"}
+GPG](../../../../images/2016-04-06/c7f519fc-fbda-11e5-9367-2e08dd186c1d.png)
 
 On the other hand, user’s driver updates (specified through [dud][2]
 option) will take precedence over installer updates. They will be
@@ -114,21 +112,18 @@ just to setup some special configuration for some of our network
 interfaces.
 
 [![Add On
-Product](../../../../images/2016-04-06/addon-300x225.png)](../../../../images/2016-04-06/addon.png){:
-rel="attachment wp-att-11791"}
+Product](../../../../images/2016-04-06/addon-300x225.png)](../../../../images/2016-04-06/addon.png)
 
 In the “Disk Activation” step, the button was moved to the top-right
 corner to be consistent with other steps.
 
 [![Disk
-Activation](../../../../images/2016-04-06/disk_activation-300x225.png)](../../../../images/2016-04-06/disk_activation.png){:
-rel="attachment wp-att-11792"}
+Activation](../../../../images/2016-04-06/disk_activation-300x225.png)](../../../../images/2016-04-06/disk_activation.png)
 
 And to round off consistency we also adjusted the keyboard shortcut in
 the registration screen.
 
-[![Registration](../../../../images/2016-04-06/registration-300x225.png)](../../../../images/2016-04-06/registration.png){:
-rel="attachment wp-att-11793"}
+[![Registration](../../../../images/2016-04-06/registration-300x225.png)](../../../../images/2016-04-06/registration.png)
 
 ### New storage library keeps evolving
 

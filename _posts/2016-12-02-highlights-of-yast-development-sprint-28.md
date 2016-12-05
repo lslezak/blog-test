@@ -218,12 +218,11 @@ who wanted to improve the installation to make the life of cloud-lovers
 easier.
 
 For cloud guys out there retrieving logs of a failed installation
-<del>is</del> was a huge problem. Now, thanks to Devin, all you need is
+~~is~~ was a huge problem. Now, thanks to Devin, all you need is
 a running a rsyslog server and you’ll be able to easily access your
 installation logs from there.
 
-![A drawing is worth a thousand
-words](../../../../images/2016-12-02/dvw.png)
+![A drawing is worth a thousand words](../../../../images/2016-12-02/dvw.png)
 
 As a matter of fact, the newest Tumbleweed release allows us to specify
 the IP address of a remote server from the bootloader through the

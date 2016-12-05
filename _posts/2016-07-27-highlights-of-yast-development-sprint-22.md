@@ -16,7 +16,11 @@ tags:
 - YaST
 ---
 
-            <p><a href="https://events.opensuse.org/conference/oSC16">openSUSE Conference’16</a>, <a href="https://hackweek.suse.com">Hackweek 14</a> and the various SUSE internal workshops are over. So it’s time for the YaST team to go back to usual three-weeks-long development sprints… and with new sprints come new public reports!  </p>
+[openSUSE Conference’16][https://events.opensuse.org/conference/oSC16],
+[Hackweek 14][https://hackweek.suse.com] and the various SUSE internal
+workshops are over. So it’s time for the YaST team to go back to usual
+three-weeks-long development sprints… and with new sprints come new public
+reports!
 
 With Leap 42.2 in Alpha phase and SLE12-SP2 in Beta phase our focus is
 on bugs fixing, so we don’t have as much fancy stuff to show in this

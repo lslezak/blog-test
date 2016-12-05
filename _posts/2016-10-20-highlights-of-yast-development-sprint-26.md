@@ -202,7 +202,7 @@ bridges](../../../../images/2016-10-20/bridge-300x225.png)](../../../../images/2
 
 This revamp includes also quite some usability improvements:
 
-* “NONE” is shown instead of 0.0.0.0 for old bridge configuration.
+* `NONE` is shown instead of 0.0.0.0 for old bridge configuration.
 * The bridge master is shown in the enslaved interface.
 * The interfaces overview is updated after a bridge is modified.
 
@@ -223,8 +223,9 @@ The time needed to execute the next command in a system containing a
 huge `/etc/hosts` with around 10,000 entries (quite an extreme case, we
 know) was reduced from 75 seconds to just 20.
 
-    
-    yast2 lan list
+```
+yast2 lan list
+```
 
 As you can see in [this pull request][15], we also improved CFA itself,
 greatly reducing the time needed for reading configuration files with

@@ -18,7 +18,12 @@ tags:
 - YaST
 ---
 
-            <p>As already mentioned in our <a href="https://lizards.opensuse.org/?p=11893">previous blog post</a>, with Leap 42.2 in Alpha phase and SLE12-SP2 in Beta phase, the YaST Team is concentrating the firepower in fixing bugs in the installer. We fixed more than 40 bugs in three weeks! The dark side is that most bug fixes are not juicy enough for writing a blog post… but there is always some interesting stuff to report.</p>
+As already mentioned in our [previous blog post](
+https://lizards.opensuse.org/?p=11893), with Leap 42.2 in Alpha phase and
+SLE12-SP2 in Beta phase, the YaST Team is concentrating the firepower in fixing
+bugs in the installer. We fixed more than 40 bugs in three weeks! The dark side
+is that most bug fixes are not juicy enough for writing a blog post… but there
+is always some interesting stuff to report.
 
 ### Integration of installer self-update with SCC and SMT
 
@@ -27,9 +32,9 @@ Center (SCC)][1] and [Subscription Management Tool (SMT)][2] servers.
 Until now, there were three different mechanisms to get the URL of the
 installer updates repository:
 
-* User defined (using the \`SelfUpdate\` boot option).
+* User defined (using the `SelfUpdate` boot option).
 * Using an AutoYaST profile.
-* The default one, specified in the \`control.xml\` which is shipped in
+* The default one, specified in the `control.xml` which is shipped in
   the media.
 
 Now YaST2 is able to ask for the repository URL to SCC/SMT servers. The
@@ -72,21 +77,22 @@ to this repository.
 
 The file looks like this:
 
-    
-    <?xml version="1.0"?>
-    <add_on_products xmlns="http://www.suse.com/1.0/yast2ns"
-        xmlns:config="http://www.suse.com/1.0/configns">
-        <product_items config:type="list">
-            <product_item>
-                <name>My Add-on</name>
-                <url>relurl://myaddon?alias=MyAddon</url>
-                <priority config:type="integer">70</priority>
-                <ask_user config:type="boolean">false</ask_user>
-                <selected config:type="boolean">true</selected>
-                <check_name config:type="boolean">false</check_name>
-            </product_item>
-        </product_items>
-    </add_on_products>
+```xml
+<?xml version="1.0"?>
+<add_on_products xmlns="http://www.suse.com/1.0/yast2ns"
+    xmlns:config="http://www.suse.com/1.0/configns">
+    <product_items config:type="list">
+        <product_item>
+            <name>My Add-on</name>
+            <url>relurl://myaddon?alias=MyAddon</url>
+            <priority config:type="integer">70</priority>
+            <ask_user config:type="boolean">false</ask_user>
+            <selected config:type="boolean">true</selected>
+            <check_name config:type="boolean">false</check_name>
+        </product_item>
+    </product_items>
+</add_on_products>
+```
 
 You can define the following elements:
 
@@ -109,8 +115,9 @@ for you.
 For example, if you have a set of new kernel packages you would like to
 use, do:
 
-    
-    mksusecd --create new.iso --addon kernel-*.rpm --addon-name 'my kernel' sles12-sp2.iso
+```
+mksusecd --create new.iso --addon kernel-*.rpm --addon-name 'my kernel' sles12-sp2.iso
+```
 
 This creates a new iso based on `sles12-sp2.iso` that will install your
 new kernel packages instead.
@@ -155,7 +162,7 @@ can do it!
 
 The documentation team uses Docbook, but they would accept contributions
 in other formats (e.g. Markdown) and transform it themselves into
-Docbook… just because they are that cool. 🙂
+Docbook… just because they are that cool. :smiley:
 
 ### Better support for ARM systems using EFI
 

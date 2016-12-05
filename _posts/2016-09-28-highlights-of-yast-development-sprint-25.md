@@ -51,14 +51,15 @@ file definition.
 AutoYaST now supports the specification of a set of public keys for each
 user with a pretty straightforward syntax:
 
-    
-    <user>
-      <username>suse<username>
-      <authorized_keys config:type="list">
-        <listentry>ssh-rsa your-public-key-1</listentry>
-        <listentry>ssh-rsa your-public-key-2</listentry>
-      <authorized_keys>
-    <user>
+```xml
+<user>
+  <username>suse<username>
+  <authorized_keys config:type="list">
+    <listentry>ssh-rsa your-public-key-1</listentry>
+    <listentry>ssh-rsa your-public-key-2</listentry>
+  <authorized_keys>
+<user>
+```
 
 AutoYaST takes care of writing the files and setting the ownership and
 the proper permissions.
