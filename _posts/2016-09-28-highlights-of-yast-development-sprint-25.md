@@ -35,7 +35,7 @@ some cool features in a less conservative Tumbleweed.
 We are still dedicating quite some effort to polish the upcoming stable
 releases (SLE12-SP2 and Leap 42.2), but in this sprint we finally found
 some time to play. Which is great because blogging about new features is
-more fun than doing it about bug fixes. :simple\_smile:
+more fun than doing it about bug fixes. :simple_smile:
 
 ### Importing Authorized Keys with AutoYaST
 

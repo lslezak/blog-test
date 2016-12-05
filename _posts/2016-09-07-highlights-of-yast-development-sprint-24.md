@@ -138,7 +138,7 @@ physical volume from a volume group and shrinking its logical volumes
 *afterwards*.
 
 The good thing about our automated test-cases is that they generate nice
-graph that are quite useful to illustrate blog posts. :simple\_smile:
+graph that are quite useful to illustrate blog posts. :simple_smile:
 
 [![One of the several added
 test-cases](../../../../images/2016-09-07/complex1-action-300x48.png)](../../../../images/2016-09-07/complex1-action.png)

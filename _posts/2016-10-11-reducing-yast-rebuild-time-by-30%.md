@@ -123,7 +123,7 @@ take roughly the same time to build; it would not be helpful if there
 were huge variations. To get a more accurate picture, we should have
 generated a histogram of build times. But the graph was good enough in
 our scenario… and we had to stop the analysis at some point.
-:simple\_smile:
+:simple_smile:
 
 The build dependency graph before our fixes:
 
