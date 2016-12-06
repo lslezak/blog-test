@@ -2,6 +2,7 @@
 layout: post
 date: 2016-06-23
 title: Highlights of YaST development sprint 21
+description: Another SCRUM Sprint finished and we have a short summary about it!
 category: SCRUM
 tags:
 - Factory

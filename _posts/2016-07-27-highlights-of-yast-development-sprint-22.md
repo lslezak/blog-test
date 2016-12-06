@@ -2,6 +2,10 @@
 layout: post
 date: 2016-07-27
 title: Highlights of YaST development sprint 22
+description: openSUSE Conference’16, Hackweek 14 and the various SUSE internal
+  workshops are over. So it’s time for the YaST team to go back to usual
+  three-weeks-long development sprints… and with new sprints come new public
+  reports!
 category: SCRUM
 tags:
 - Distribution
@@ -10,12 +14,6 @@ tags:
 - Systems Management
 - YaST
 ---
-
-[openSUSE Conference’16][https://events.opensuse.org/conference/oSC16],
-[Hackweek 14][https://hackweek.suse.com] and the various SUSE internal
-workshops are over. So it’s time for the YaST team to go back to usual
-three-weeks-long development sprints… and with new sprints come new public
-reports!
 
 With Leap 42.2 in Alpha phase and SLE12-SP2 in Beta phase our focus is
 on bugs fixing, so we don’t have as much fancy stuff to show in this

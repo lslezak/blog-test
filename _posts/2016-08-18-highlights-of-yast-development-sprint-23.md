@@ -2,6 +2,10 @@
 layout: post
 date: 2016-08-18
 title: Highlights of YaST development sprint 23
+description: As already mentioned in our previous blog post, with Leap 42.2 in
+  Alpha phase and SLE12-SP2 in Beta phase, the YaST Team is concentrating the
+  firepower in fixing bugs in the installer. We fixed more than 40 bugs in
+  three weeks!
 category: SCRUM
 tags:
 - Distribution
@@ -12,12 +16,9 @@ tags:
 - YaST
 ---
 
-As already mentioned in our [previous blog post](
-https://lizards.opensuse.org/?p=11893), with Leap 42.2 in Alpha phase and
-SLE12-SP2 in Beta phase, the YaST Team is concentrating the firepower in fixing
-bugs in the installer. We fixed more than 40 bugs in three weeks! The dark side
-is that most bug fixes are not juicy enough for writing a blog post… but there
-is always some interesting stuff to report.
+We fixed more than 40 bugs in three weeks! The dark side is that most bug fixes
+are not juicy enough for writing a blog post… but there is always some
+interesting stuff to report.
 
 ### Integration of installer self-update with SCC and SMT
 
