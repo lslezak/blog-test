@@ -3,17 +3,17 @@ layout: page
 permalink: /new_post/
 ---
 
-# Create a New Post
+<h2> Create a New Post</h2>
 
-Here you can generate a post template at GitHub for a new blog post.
+<p>Here you can generate a post template at GitHub for a new blog post.</p>
 
 <form>
-Post Title<br>
-<input type="text" id="post_title">
-<br>
-<br>
-<!-- Add lists with categories and tags here ?? -->
-<button type="submit" id="create_button">Propose Post</button>
+  Post Title<br>
+  <input type="text" id="post_title" value="Highlights of YaST development sprint X">
+  <br>
+  <br>
+  <!-- Add lists with categories and tags here ?? -->
+  <button type="submit" id="create_button">Propose Post</button>
 </form>
 
 <script type="text/javascript">
@@ -26,20 +26,22 @@ Post Title<br>
       var title_raw = title;
       title = title.replace(/ /g, "-").replace(/\//g, "");
       var date = new Date();
+      var date_str = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
       var url = "https://github.com/{{site.github_username}}{{site.baseurl}}/new/master?filename=_posts/"
-        + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + "-" + title + ".md";
+        + date_str + "-" + title + ".md";
 
       var default_text = [
         '---',
         'layout: post',
+        'date: ' + date_str,
         'title: "' + title_raw + '"',
         'description: "Short summary displayed at the main page"',
         'discussion: true',
-        'category: foo',
-        'tags: [ tag1, tag2 ]',
+        'category: SCRUM',
+        'tags: [ YaST, Installer, Tumbleweed ]',
         '---',
         '',
-        'Your new post here.'
+        'Your new post here. Adapt the YAML header as needed.'
       ].join('\n');
 
       url += "&value=" + encodeURIComponent(default_text);
