@@ -271,8 +271,8 @@ about three weeks. See you then!
 
 
 
-[1]: https://lizards.opensuse.org/?p=11748
-[2]: https://lizards.opensuse.org/?p=11777
+[1]: {{ site.baseurl }}{% post_url 2016-03-15-highlights-of-development-sprint-16 %}
+[2]: {{ site.baseurl }}{% post_url 2016-04-06-highlights-of-development-sprint-17 %}
 [3]: https://gist.github.com/teclator/7bab6f4037992e66b1461e0696cf7f0a
 [4]: https://github.com/yast/yast-installation/blob/master/doc/SELF_UPDATE.md#where-to-find-the-updates
 [5]: https://build.opensuse.org/package/show/openSUSE:Factory/perl-Bootloader

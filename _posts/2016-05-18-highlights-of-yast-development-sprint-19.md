@@ -165,5 +165,5 @@ to hacking!
 [3]: https://bugzilla.opensuse.org/show_bug.cgi?id=956976
 [4]: https://features.opensuse.org/320873
 [5]: http://martinfowler.com/bliki/OpportunisticRefactoring.html
-[6]: https://lizards.opensuse.org/?p=11800
+[6]: {{ site.baseurl }}{% post_url 2016-05-02-highlights-of-yast-development-sprint-18 %}
 [7]: http://snapper.io/2016/05/18/space-aware-cleanup.html

@@ -265,7 +265,7 @@ stay tuned for more!
 
 
 [1]: https://en.opensuse.org/SDB:Linuxrc
-[2]: https://lizards.opensuse.org/2016/11/10/highlights-of-yast-development-sprint-27/
+[2]: {{ site.baseurl }}{% post_url 2016-11-10-highlights-of-yast-development-sprint-27 %}
 [3]: http://kubernetes.io/
 [4]: https://github.com/yast/yast-storage-ng/blob/master/doc/software-requirements.md
 [5]: https://en.opensuse.org/SDB:YaST_tricks
