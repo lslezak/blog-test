@@ -30,7 +30,7 @@ $brand-color:      #35b9ab;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 5%);
+$grey-color-dark:  darken($grey-color, 20%);
 
 // Width of the content area
 $content-width:    800px;
@@ -46,7 +46,7 @@ $facebook-button-color: #3b5999;
 // https://business.pinterest.com/en/brand-guidelines
 $pinterest-button-color: #bd081c;
 
-$footer-height:     180px;
+$footer-height:     130px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
