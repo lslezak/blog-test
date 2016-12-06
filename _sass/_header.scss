@@ -54,12 +54,16 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
+    &:hover {
+      text-decoration: none;
+      background-color: $brand-color-light1;
+    }
   }
-  @include media-query($on-palm) {
+  // @include media-query($on-palm) {
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
+    background-color: $brand-color-light2;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -93,7 +97,7 @@
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
+      margin-left: 10px;
     }
-  }
+  // }
 }
