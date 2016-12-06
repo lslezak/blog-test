@@ -1,0 +1,33 @@
+.pagination {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.pagination-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.page-num {
+  border-width: 2px;
+  border-radius: 50%;
+  min-width: 25px;
+  min-height: 25px;
+  display: inline-block;
+}
+
+.page-num-current {
+  border-style: solid;
+  border-color: $brand-color;
+}
+
+a.page-num-active {
+  text-decoration: none;
+  background-color: $brand-color;
+  color: white;
+  &:hover {
+    background-color: lighten($brand-color, 10%);
+  }
+}

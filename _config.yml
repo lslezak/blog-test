@@ -16,11 +16,15 @@ kramdown:
   # no hard line endings, allow reformatting paragraphs
   hard_wrap: false
 
+# pagination config for the index page
+paginate: 8
+
 permalink: /:year/:month/:day/:title/
 
 # generate sitemap.xml and feed.xml automatically by plugins, enable GFM emoji
 gems:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
