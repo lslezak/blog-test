@@ -6,6 +6,7 @@ description: November is over, Santa Claus elves start to stress and the YaST te
   brings you one of the last reports of 2016. Let&#8217;s see what&#8217;s new in
   YaSTland.
 category: SCRUM
+comments: true
 tags:
 - Base System
 - Distribution
