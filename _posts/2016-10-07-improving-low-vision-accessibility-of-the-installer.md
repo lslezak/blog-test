@@ -59,7 +59,7 @@ Please, join us to make YaST even better!
 
 
 
-[1]: https://lizards.opensuse.org/?p=11983
+[1]: {{ site.baseurl }}{% post_url 2016-09-28-highlights-of-yast-development-sprint-25 %}
 [2]: https://bugzilla.suse.com/show_bug.cgi?id=780621
 [3]: https://lists.opensuse.org/opensuse-factory/2016-09/msg00593.html
 [4]: http://bugzilla.novell.com/show_bug.cgi?id=768112

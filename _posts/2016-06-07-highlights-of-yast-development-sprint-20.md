@@ -179,11 +179,11 @@ openSUSE Conference. By the way… see you there!
 
 [1]: http://yastgithubio.readthedocs.io/en/latest/debugging/
 [2]: https://github.com/yast/yast-installation/pull/379
-[3]: https://lizards.opensuse.org/?p=11822
+[3]: {{ site.baseurl }}{% post_url 2016-05-18-highlights-of-yast-development-sprint-19 %}
 [4]: https://github.com/yast/yast-installation/pull/382
-[5]: https://lizards.opensuse.org/2016/05/02/highlights-of-yast-development-sprint-18/
+[5]: {{ site.baseurl }}{% post_url 2016-05-02-highlights-of-yast-development-sprint-18 %}
 [6]: https://github.com/yast/yast-network/pull/401
-[7]: https://lizards.opensuse.org/2016/02/03/highlights-of-development-sprint-14/
+[7]: {{ site.baseurl }}{% post_url 2016-02-03-highlights-of-development-sprint-14 %}
 [8]: https://github.com/yast/yast-users/pull/84
 [9]: https://bugzilla.suse.com/show_bug.cgi?id=974626
 [10]: https://events.opensuse.org/conference/oSC16

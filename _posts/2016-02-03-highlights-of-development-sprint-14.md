@@ -140,8 +140,8 @@ three weeks!
 
 
 
-[1]: https://lizards.opensuse.org/2016/01/07/highlights-of-development-sprint-13/
-[2]: https://lizards.opensuse.org/2015/12/15/lets-blog-about-yast/
+[1]: {{ site.baseurl }}{% post_url 2016-01-07-highlights-of-development-sprint-13 %}
+[2]: {{ site.baseurl }}{% post_url 2015-12-15-let-s-blog-about-yast %}
 [3]: https://github.com/yast/yast-users/pull/84
 [4]: http://lists.opensuse.org/opensuse-factory/2016-01/msg00496.html
 [5]: http://www.rubydoc.info/github/yast/yast-yast2/UI/InstallationDialog

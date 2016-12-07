@@ -1,10 +1,10 @@
 ---
 layout: page
+title: Categories
 permalink: /categories/
 onload: "filter_tags()"
 ---
 <div class="tag-list">
-  <h3><span class="fa fa-bookmark fa-fw"></span> Categories</h3>
 <ul class="tag-cloud">
 {% assign categories = site.categories | sort %}
 {% for category in categories %}

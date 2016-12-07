@@ -2,6 +2,7 @@
 layout: post
 date: 2016-06-23
 title: Highlights of YaST development sprint 21
+description: Another SCRUM Sprint finished and we have a short summary about it!
 category: SCRUM
 tags:
 - Factory
@@ -97,7 +98,7 @@ Upcoming SLE 12 SP2 and Leap 42.2 behaves as expected and
 [2]: https://bugzilla.suse.com/show_bug.cgi?id=974821
 [3]: https://en.opensuse.org/SDB:Linuxrc#p_sslcerts
 [4]: https://bugzilla.suse.com/show_bug.cgi?id=982727
-[5]: https://lizards.opensuse.org/2016/06/07/highlights-of-yast-development-sprint-20/
+[5]: {{ site.baseurl }}{% post_url 2016-06-07-highlights-of-yast-development-sprint-20 %}
 [6]: https://www.suse.com/documentation/smt11/
 [7]: https://en.wikipedia.org/wiki/Service_Location_Protocol
 [8]: https://bugzilla.suse.com/show_bug.cgi?id=981633

@@ -241,7 +241,7 @@ sprint report. Meanwhile… have a lot of fun!
 
 
 
-[1]: https://lizards.opensuse.org/?p=11935
+[1]: {{ site.baseurl }}{% post_url 2016-08-18-highlights-of-yast-development-sprint-23 %}
 [2]: https://github.com/yast/yast-installation/blob/master/doc/SELF_UPDATE.md
 [3]: https://joaquinyeray.me/
 [4]: https://software.opensuse.org/package/yast2-alternatives

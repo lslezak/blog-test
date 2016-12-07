@@ -112,7 +112,7 @@ long, so expect more news during the first days of February.
 
 
 
-[1]: https://lizards.opensuse.org/2015/12/15/lets-blog-about-yast/
+[1]: {{ site.baseurl }}{% post_url 2015-12-15-let-s-blog-about-yast %}
 [2]: https://en.opensuse.org/Portal:Hackweek
 [3]: https://github.com/openSUSE/cheetah
 [4]: http://augeas.net/

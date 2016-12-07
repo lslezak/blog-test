@@ -179,7 +179,7 @@ summer projects we have on the [openSUSE mentoring page][6].
 
 [1]: https://github.com/yast/yast-storage/pull/190
 [2]: https://github.com/yast/yast-storage/pull/186
-[3]: https://lizards.opensuse.org/2016/02/03/highlights-of-development-sprint-14/
+[3]: {{ site.baseurl }}{% post_url 2016-02-03-highlights-of-development-sprint-14 %}
 [4]: https://gist.github.com/ancorgs/014c34c3c74b9949f3a2
-[5]: https://lizards.opensuse.org/?p=11673
+[5]: {{ site.baseurl }}{% post_url 2016-02-03-highlights-of-development-sprint-14 %}
 [6]: http://101.opensuse.org/

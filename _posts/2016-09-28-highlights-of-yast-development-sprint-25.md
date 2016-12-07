@@ -268,7 +268,7 @@ So this time more than ever… stay tuned!
 
 
 
-[1]: https://lizards.opensuse.org/2016/09/07/highlights-of-yast-development-sprint-24/
+[1]: {{ site.baseurl }}{% post_url 2016-09-07-highlights-of-yast-development-sprint-24 %}
 [2]: https://github.com/SUSE/doc-sle/pull/69
 [3]: https://github.com/SUSE/doc-sle/blob/develop/README.adoc
 [4]: http://download.opensuse.org/repositories/YaST:/storage-ng/images/iso/

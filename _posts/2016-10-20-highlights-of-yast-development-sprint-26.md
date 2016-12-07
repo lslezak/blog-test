@@ -234,8 +234,8 @@ In any case, see you soon and don’t forget to have a lot of fun!
 
 
 
-[1]: https://lizards.opensuse.org/?p=12019
-[2]: https://lizards.opensuse.org/?p=12030
+[1]: {{ site.baseurl }}{% post_url 2016-10-07-improving-low-vision-accessibility-of-the-installer %}
+[2]: {{ site.baseurl }}{% post_url 2016-10-11-reducing-yast-rebuild-time-by-30\% %}
 [3]: https://github.com/yast/yast-bootloader/blob/master/doc/boot_storage_needed_info.md
 [4]: https://weblate.org
 [5]: https://l10n.opensuse.org/

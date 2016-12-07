@@ -213,6 +213,6 @@ Stay tuned!
 [3]: https://github.com/yast/skelcd-control-SLES/blob/master/control/control.SLES.xml#L190
 [4]: https://github.com/yast/skelcd-control-openSUSE/blob/master/control/control.openSUSE.xml#L297
 [5]: https://bugzilla.suse.com/show_bug.cgi?id=1008289
-[6]: https://lizards.opensuse.org/2016/10/20/highlights-of-yast-development-sprint-26/
+[6]: {{ site.baseurl }}{% post_url 2016-10-20-highlights-of-yast-development-sprint-26 %}
 [7]: https://www.scrumalliance.org/community/articles/2007/march/glossary-of-scrum-terms#1130
 [8]: http://euruko2016.org/
