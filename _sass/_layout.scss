@@ -96,7 +96,7 @@ footer {
 
 .site-footer {
   border-top: 1px solid lighten($brand-color, 40%);;
-  padding: $spacing-unit 0;
+  padding-top: 20px;
   background-color: lighten($brand-color, 50%);
 }
 
@@ -109,6 +109,7 @@ footer {
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  margin-bottom: 0;
 }
 
 .footer-col-wrapper {
@@ -120,7 +121,7 @@ footer {
 
 .footer-col {
   float: left;
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: 1px;
   padding-left: $spacing-unit / 2;
 }
 
@@ -137,11 +138,13 @@ footer {
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
   width: calc(45% - (#{$spacing-unit} / 2));
+  text-align: right;
 }
 
 .footer-copy {
   color: lighten($grey-color, 20%);
   text-align: center;
+  font-size: 80%;
 
   a {
     &,
@@ -192,7 +195,7 @@ footer {
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $grey-color-dark;
 }
 .post-link {
   display: block;
@@ -209,7 +212,6 @@ footer {
 
 .post-title {
   font-size: 42px;
-  letter-spacing: -1px;
   line-height: 1;
   @include media-query($on-laptop) {
     font-size: 36px;
@@ -240,6 +242,7 @@ footer {
 
 .post-description {
   font-style: italic;
+  font-size: 16px;
 }
 
 .post-list {

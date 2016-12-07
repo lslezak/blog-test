@@ -5,6 +5,8 @@ description: "Is it difficult to write a new post for a Jekyll based blog?"
 category: howto
 # FIXME: discussion is not supported yet
 discussion: true
+# FIXME: temporarily hidden
+published: false
 tags: [ blog ]
 ---
 

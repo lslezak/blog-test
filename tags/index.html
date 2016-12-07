@@ -8,7 +8,7 @@ onload: "filter_tags()"
 <ul class="tag-cloud">
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
-  <li class="tag-cloud-item" style="font-size: {{ tag | last | size | times: 1000 | divided_by: site.tags.size | plus: 50  }}%">
+  <li class="tag-cloud-item" style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 80  }}%">
     <a href="#{{ tag | first | slugize }}" onclick="filter_tags('{{ tag | first | slugize }}');">{{ tag | first }}</a>
   </li>
 {% endfor %}
@@ -23,7 +23,7 @@ onload: "filter_tags()"
     <h4><span class="fa fa-tag fa-fw"></span> {{ tag_name }}</h4>
     {% for post in site.tags[tag_name] %}
     <div class="tag-link">
-      <a href="{{ root_url }}{{ post.url }}">{{post.title}}</a>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
     </div>
     {% endfor %}
   </div>
@@ -31,12 +31,10 @@ onload: "filter_tags()"
 </div>
 
 <script type="text/javascript">
-  // filther the tags to display
+  // filter the tags to display
   function filter_tags(tag) {
     // tag from the argument or the current URL
     var current_tag = tag || document.location.hash.substring(1);
-    // console.log("Current tag: " + current_tag);
-
     var x = document.getElementsByClassName("tag-group");
     var i;
     for (i = 0; i < x.length; i++) {
